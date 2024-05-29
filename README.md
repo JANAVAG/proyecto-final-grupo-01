@@ -62,3 +62,39 @@ done
 <p align="center">
 <img src="images/evidenciacarpetas.png" width="500">
 </p>
++ Función que indique en qué carpetas están los archivos no vacíos de nombre sinceramente.txt
+
+~~~
+
+#!/bin/bash
+vacio(){
+sleep 0.001 
+}
+archivo(){
+        echo "En carpeta-$i hay un archivo"
+
+}
+for i in {1..100}
+do
+variable=$(gsutil du gs://sit-devops-training-bkt09/grupo-01/carpeta-$i/sinceramente.txt)
+#echo "La variable tiene $variable"
+if [ "$variable" = "0            gs://sit-devops-training-bkt09/grupo-01/carpeta-$i/sinceramente.txt" ];
+then
+
+        vacio
+
+else
+        archivo
+
+fi
+done
+generalog(){
+
+        echo "Se genero un log en grupo-01-$(date +"%Y-%m-%d-%I-%M").log"
+        $date  >> grupo-01-$(date +"%Y-%m-%d-%I-%M").log
+        echo "Grupo 01" >> grupo-01-$(date +"%Y-%m-%d-%I-%M").log
+        uname -a >> grupo-01-$(date +"%Y-%m-%d-%I-%M").log
+        echo "El usuario $USER ejecuto el bash" >> grupo-01-$(date +"%Y-%m-%d-%I-%M").log
+}
+generalog
+~~~
