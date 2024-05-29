@@ -98,4 +98,43 @@ generalog(){
         echo "El usuario $USER ejecuto el bash" >> grupo-01-$(date +"%Y-%m-%d-%I-%M").log
 }
 generalog
+
+
+
+echo "Quisieras ver los mensajes? si / no"
+
+read -p "> " RESPUESTA
+
+        IMPRIME=$(gsutil cat gs://sit-devops-training-bkt09/grupo-01/carpeta*/*.txt)
+
+valida(){
+
+
+ if [ "$RESPUESTA" = "si" ]
+ then
+
+echo "Estos son los mensajes"
+
+im_mns
+
+ else
+
+echo " !Ok Hasta Luego¡ "
+
+ fi
+
+}
+
+im_mns(){
+
+                while IFS= read -r line
+                do
+                                echo "$line"
+                                sleep 15
+                                done<$IMPRIME 
+}
+
+
+valida
+
 ~~~
