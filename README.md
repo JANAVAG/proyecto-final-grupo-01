@@ -8,7 +8,7 @@
 | INTEGRANTE                      | ACTIVIDADES REALIZADAS                                             |
 |---------------------------------|--------------------------------------------------------------------|
 |     1                           | ACT                                                                |
-|     2                           | ACT                                                                |
+|     2  Yusef                    | Aportacion en Script, README e ideas                               |
 |     3                           | ACT                                                                |
 |     4                           | ACT                                                                |
 |     5                           | ACT                                                                |
