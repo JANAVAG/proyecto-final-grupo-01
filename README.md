@@ -22,7 +22,7 @@
 CREACION="gsutil mb -p sit-devops-training -c STANDARD -l US -b on gs://sit-devops-training-bktX09
 ~~~
 <p align="center">
-<img src="images/creacion_bucket.png" width="350">
+<img src="images/creacion_bucket.png" width="500">
 </p>
 
 + Asignación de Etiquetas al Bucket creado
@@ -33,7 +33,7 @@ ETIQUETA2="gsutil label ch -l proyecto:golondrinas gs://sit-devops-training-bkt0
 ~~~
 
 <p align="center">
-<img src="images/creaciondeetiquetas.png" width="350">
+<img src="images/creaciondeetiquetas.png" width="500">
 </p>
 
 + Creación del archivo vacio
@@ -56,9 +56,9 @@ done
 ~~~
 
 <p align="center">
-<img src="images/creaciondecarpetas.png" width="350">
+<img src="images/creaciondecarpetas.png" width="500">
 </p>
 
 <p align="center">
-<img src="images/evidenciacarpetas.png" width="350">
+<img src="images/evidenciacarpetas.png" width="500">
 </p>
