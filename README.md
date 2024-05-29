@@ -7,7 +7,7 @@
 
 | INTEGRANTE                      | ACTIVIDADES REALIZADAS                                             |
 |---------------------------------|--------------------------------------------------------------------|
-|     1                           | ACT                                                                |
+|     1  Rodrigo                  | Aportacion en Script, README e ideas                                                                |
 |     2  Yusef                    | Aportacion en Script, README e ideas                               |
 |     3  José Nava                | Aportación en Script, README, ideas y punto de contacto con equipo |
 
