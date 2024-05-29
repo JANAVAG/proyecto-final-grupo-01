@@ -62,6 +62,7 @@ done
 <p align="center">
 <img src="images/evidenciacarpetas.png" width="500">
 </p>
+
 + Función que indique en qué carpetas están los archivos no vacíos de nombre sinceramente.txt
 
 ~~~
