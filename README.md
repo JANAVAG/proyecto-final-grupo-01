@@ -113,6 +113,10 @@ USER=$("whoami")
 genera_log
 ~~~
 
+<p align="center">
+<img src="images/evidencialog.png" width="500">
+</p>
+
 + Decisión de Lectura de archivos(OPCIONAL)
 
 ~~~
