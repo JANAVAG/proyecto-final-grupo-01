@@ -214,15 +214,15 @@ valida
 ~~~
   
 <p align="center">
-<img src="images/mensaje-1.png" width="500">
+<img src="images/mensajes-1.png" width="500">
 </p>
 
 <p align="center">
-<img src="images/mensaje-2.png" width="500">
+<img src="images/mensajes-2.png" width="500">
 </p>
 
 <p align="center">
-<img src="images/mensaje-3.png" width="500">
+<img src="images/mensajes-3.png" width="500">
 </p>
 
 <p align="center">
