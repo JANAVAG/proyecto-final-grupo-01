@@ -9,9 +9,7 @@
 |---------------------------------|--------------------------------------------------------------------|
 |     1                           | ACT                                                                |
 |     2  Yusef                    | Aportacion en Script, README e ideas                               |
-|     3                           | ACT                                                                |
-|     4                           | ACT                                                                |
-|     5                           | ACT                                                                |
+|     3  José Nava                | Aportación en Script, README, ideas y punto de contacto con equipo |
 
 </div>
 
@@ -63,7 +61,7 @@ done
 <img src="images/evidenciacarpetas.png" width="500">
 </p>
 
-+ Función que indique en qué carpetas están los archivos no vacíos de nombre sinceramente.txt
++ Función que indique en qué carpetas están los archivos no vacíos de nombre sinceramente.txt, creación de log e impresión de mensajes. 
 
 ~~~
 
@@ -145,3 +143,7 @@ im_mns(){
 valida
 
 ~~~
+
+<p align="center">
+<img src="images/funcionencuentra.png" width="500">
+</p>
