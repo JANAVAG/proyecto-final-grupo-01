@@ -87,6 +87,11 @@ else
 
 fi
 done
+~~~
+
++ Generacion del log
+  
+~~~
 genera_log(){
 
 GRUPO="Grupo-01"
@@ -103,8 +108,12 @@ USER=$("whoami")
 }
 
 genera_log
+~~~
 
++ Decisión de Lectura de archivos(OPCIONAL)
 
+~~~
+#!/bin/bash
 
 echo "Quisieras ver los mensajes? si / no"
 
