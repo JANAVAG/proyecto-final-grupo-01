@@ -89,15 +89,22 @@ else
 
 fi
 done
-generalog(){
+genera_log(){
 
-        echo "Se genero un log en grupo-01-$(date +"%Y-%m-%d-%I-%M").log"
-        $date  >> grupo-01-$(date +"%Y-%m-%d-%I-%M").log
-        echo "Grupo 01" >> grupo-01-$(date +"%Y-%m-%d-%I-%M").log
-        uname -a >> grupo-01-$(date +"%Y-%m-%d-%I-%M").log
-        echo "El usuario $USER ejecuto el bash" >> grupo-01-$(date +"%Y-%m-%d-%I-%M").log
+GRUPO="Grupo-01"
+DATE=$(date +"%d%m%Y-%H%M")
+DISTRO=$(lsb_release -d)
+USER=$("whoami")
+
+        touch "$GRUPO"-"$DATE".log
+
+        echo "$GRUPO" >> "$GRUPO"-"$DATE".log
+        echo "$DISTRO" >> "$GRUPO"-"$DATE".log
+        echo "$USER" >> "$GRUPO"-"$DATE".log
+
 }
-generalog
+
+genera_log
 
 
 
