@@ -38,4 +38,6 @@ for i in {1..100}
 do
         gsutil cp sinceramente.txt gs://sit-devops-training-bkt03/carpeta-$i/
 done
+
+
 ~~~
