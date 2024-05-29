@@ -19,19 +19,32 @@
 
 + Creación de Bucket solicitado
 ~~~
-CREACION="gsutil mb sit-devops-training -c STANDARD -l US -b on gs://sit-devops-training-bktXX"  
+CREACION="gsutil mb -p sit-devops-training -c STANDARD -l US -b on gs://sit-devops-training-bktX09
 ~~~
+<p align="center">
+<img src="images/creacion_bucket.png" width="350">
+</p>
+
 + Asignación de Etiquetas al Bucket creado
 ~~~
-ETIQUETA1="gsutil label ch -l grupo:grupo-01 gs://sit-devops-training-bktXX"  
-ETIQUETA2="gsutil label ch -l proyecto:golondrinas gs://sit-devops-training-bktXX"  
+ETIQUETA1="gsutil label ch -l grupo:grupo-01 gs://sit-devops-training-bkt09"  
+ETIQUETA2="gsutil label ch -l proyecto:golondrinas gs://sit-devops-training-bkt09"  
+
 ~~~
+
+<p align="center">
+<img src="images/creaciondeetiquetas.png" width="350">
+</p>
+
 + Creación del archivo vacio
 ~~~
 touch sinceramente.txt
 ~~~
+
 + Creación de las carpetas y copia de los archivos vacios en cada una de las carpetas creadas.
+
 ~~~
+
 #!/bin/bash
 
 for i in {1..100}
@@ -41,3 +54,11 @@ done
 
 
 ~~~
+
+<p align="center">
+<img src="images/creaciondecarpetas.png" width="350">
+</p>
+
+<p align="center">
+<img src="images/evidenciacarpetas.png" width="350">
+</p>
