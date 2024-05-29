@@ -89,7 +89,7 @@ fi
 done
 ~~~
 <p align="center">
-<img src="images/evidenciacarpetas.png" width="500">
+<img src="images/funcionencuentra.png" width="800">
 </p>
 
 + Generacion del log
