@@ -155,3 +155,73 @@ im_mns(){
 valida
 
 ~~~
+
+
+
++ Lectura de archvos con informacion
+  
+~~~
+echo "Quisieras ver los mensajes? si / no"
+
+read -p "> " RESPUESTA
+
+
+#BUSCAARCH=$(gsutil ls gs://sit-devops-training-bkt03/carpeta*/*.txt)
+        IMPRIME=$(gsutil cat gs://sit-devops-training-bkt03/carpeta*/*.txt)
+
+valida(){
+
+
+ if [ "$RESPUESTA" = "si" ]
+ then
+
+echo "Si quiere ver los mensajes"
+
+im_mns
+
+ else
+
+echo "Se termina progrma"
+
+ fi
+
+}
+
+im_mns () {
+
+
+for i in $IMPRIME
+               do
+                      echo "$i"
+                       sleep 15
+
+               done
+		
+}		
+				
+				while read line; do
+				echo "$line"
+				done < $IMPRIME
+				
+				
+}
+
+valida
+~~~
+  
+<p align="center">
+<img src="images/mensaje-1.png" width="500">
+</p>
+
+<p align="center">
+<img src="images/mensaje-2.png" width="500">
+</p>
+
+<p align="center">
+<img src="images/mensaje-3.png" width="500">
+</p>
+
+<p align="center">
+<img src="images/mensaje-no.png" width="500">
+</p>
+
